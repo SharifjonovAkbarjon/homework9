@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1248px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+
+
+
+.header{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+.navbar__collection{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+.navbar__link{
+    text-decoration: none;
+    color: #9093A6;
+}
+
+
+
+.hero{
+    display: flex;
+    margin-top: 25px;
+}
+.hero__text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 88px;
+}
+.hero__title{
+    font-size: 60px;
+    font-weight: 300;
+}
+.hero__btns{
+    display: flex;
+    gap: 24px;
+}
+.hero__btn{
+    padding: 26px 24px;
+    background: transparent;
+    border: 2px solid #FFE145;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+
+.hero__image{
+    width: 50%;
+}
+.hero__image img{
+    width: 100%;
+}
+
+.restaurant{
+    width: 1256px;
+    height: 48px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurant__title{
+    font-size: 36px;
+    color:  #3F4255;
+    font-weight: 300;
+    line-height: 64px;
+    font-size: 36px;
+    letter-spacing: ;
+    
+}
+
+.btn{
+    width: 118px;
+    height: 48px;
+    border-radius: 4px;
+    color:#9093A6;
+    font-family: Martel sans;
+    border: none;
+}
+
+.wrapper{
+    width: 1256px;
+    /* height: 392px; */
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 24px;
+    margin-top: 96px;
+ 
+}
+
+.card{
+    width: 296px;
+    box-shadow: 0 0 10px #0002;
+}
+
+.pictures__meals{
+    width: 296px;
+    
+    border-radius: 4px;
+}
+
+
+.section__part{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main__part{
+    width: 100%;
+    height: 297px;
+   
+    background:  rgba(242, 244, 250, 1);
+    margin-top: 72px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.end__part{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.header__part{
+    display: inline;
+    /* width: 509px; */
+    width: 50%;
+    height: 136px;
+    border: 1px solid red;
+    margin-left: 102px;
+    margin-top: 81px;
+    /* margin-right: 829px; */
+    margin-bottom: 80px;
+}
+
+.heading__part{
+    font-size: 36px;
+    font-weight: 300;    
+    line-height: 64px;
+    color:  rgba(63, 66, 85, 1);
+    
+    
+}
+
+.paragraph__part{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 75px;
+}
+
+
+.input__name{
+ margin-left:     
+}
+
+
+.Special{
+    width: 1256px;
+    height: 48px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.Specialities{
+    font-size: 36px;
+    color:  #3F4255;
+    font-weight: 300;
+    line-height: 64px;
+    font-size: 36px;
+    letter-spacing: ;
+    
+}
+
+.btn{
+    width: 118px;
+    height: 48px;
+    border-radius: 4px;
+    color:#9093A6;
+    font-family: Martel sans;
+    border: none;}
+
+.card__part{
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1256px;
+    /* border: 1px solid #FFE145; */
+    height: 136px;
+    margin-top: 48px;
+    gap: 23.7px;
+
+}
+
+.img__part{
+    display: flex;
+    width: 136px;
+    height: 136px;
+    box-shadow: 0 0 10px #0002;
+    
+}
+
+.picture{
+    width: 136px;
+}
+
+
+
+.usp__part{
+    width: 100%;
+    box-shadow: 0 0 10px #0002;
+    margin-top: 72px;
+}
+
+.map__section{
+    width: 1280px;
+    height: 600px;
+    display: flex;
+    margin: 72px 69px 10px 150px;
+    text-align: center;
+}
+
+.map{
+    width: 1280px;   
+    height: 600px;
+}
+
+.head__kitchen{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 64px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 72px 400px 21px 150px;
+    
+}
+
+.last__section{
+    width: 1256px;
+    height: 299px;
+    display: flex;
+    margin: 0px 150px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px
+}
+
+/* font-family: Martel sans; */
+
+.images{
+    display: ;
+    border-radius: 6px;
+}
+
+.picture__last{
+    display: flex;
+    gap: 24px;
+}
+
+
+.thelast__section{
+    width: 100%;
+    height: 437px;
+    border: 1px solid rgb(63, 66, 85);
+    background: rgb(63,66,85);
+    /* color: rgb(255, 255, 255); */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 72px;
+    
+}
+
+
+.bottom__section{
+    width: 100%;
+    height: 365px;
+    display: flex;
+    margin-left: 60px;
+}
+
+.yellowkitchen{
+    width: 296px;
+    height: 149.46px;
+    /* border: 1px solid yellow; */
+    margin: 48px 10px 10px 92px;
+    color: rgb(255,255, 255);
+}
+
+.app__store{
+     margin-top: 45px;
+    
+}
+
+.about__us{
+    width: 157px;
+    height: 220px;
+    margin: 48px 83px 169px 184px;
+    color: rgb(255,255, 255);
+}
+
+.aboutus__haeding{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(255,255, 255);
+}
+
+.aboutus__text{
+    display: flex;
+    gap: 16px;
+    color: rgb(255,255, 255);
+}
+
+.aboutus__paragraph{
+    margin-top: 24px;
+    color: rgb(255,255, 255);
+}
+
+.gethelp{
+    width: 157px;
+    height: 220px;
+    margin: 48px 
+}
+
+.gethelp__heading{
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(255,255, 255);
+    
+}
+
+.get__text{
+    color: rgb(255,255, 255);
+}
+
+.get__title{
+margin-top: 24px;
+color: rgb(255,255, 255);
+}
+
+.contact{
+    width: 157px;
+    height: 220px;
+    margin: 48px;
+    color: rgb(255,255, 255);
+}
+
+.contact__text{
+    margin-top: 24px;
+}
+
+.down__section{
+    display: flex;
+    width: 100%;
+    height: 72px;
+
+}
+
+.insta__svg{
+    width: 21.66px;
+    height: 21.65px;
+    display: flex;
+    margin-left: 150px;
+}
+
+.twitter__png{
+    width: 21.66px;
+    height: 21.65px;
+    margin-left: 25px;
+}
+
+.facebook__svg{
+    width: 22px;
+    height: 22px;
+    margin-left: 25px;
+    margin-right: 800px;
+}
+
+.end__section{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: rgb(255,255, 255);;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
